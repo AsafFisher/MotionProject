@@ -22,6 +22,9 @@
 		1A0EAB741948A2E9001CCFC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0EAB531948A2E9001CCFC2 /* UIKit.framework */; };
 		1A0EAB7C1948A2E9001CCFC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0EAB7A1948A2E9001CCFC2 /* InfoPlist.strings */; };
 		1A0EAB7E1948A2E9001CCFC2 /* MotionProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0EAB7D1948A2E9001CCFC2 /* MotionProjectTests.m */; };
+		1A0EAB881948A2FD001CCFC2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0EAB871948A2FD001CCFC2 /* CoreMotion.framework */; };
+		1A58CED1194DE92100A97A14 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A58CED0194DE92100A97A14 /* TableViewController.m */; };
+		1A6C8A521948BAEA00ADEA7D /* UIColor+randomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C8A511948BAEA00ADEA7D /* UIColor+randomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 		1A0EAB791948A2E9001CCFC2 /* MotionProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionProjectTests-Info.plist"; sourceTree = "<group>"; };
 		1A0EAB7B1948A2E9001CCFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A0EAB7D1948A2E9001CCFC2 /* MotionProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionProjectTests.m; sourceTree = "<group>"; };
+		1A0EAB871948A2FD001CCFC2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1A58CECF194DE92100A97A14 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1A58CED0194DE92100A97A14 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1A6C8A501948BAEA00ADEA7D /* UIColor+randomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+randomColor.h"; sourceTree = "<group>"; };
+		1A6C8A511948BAEA00ADEA7D /* UIColor+randomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+randomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0EAB881948A2FD001CCFC2 /* CoreMotion.framework in Frameworks */,
 				1A0EAB521948A2E9001CCFC2 /* CoreGraphics.framework in Frameworks */,
 				1A0EAB541948A2E9001CCFC2 /* UIKit.framework in Frameworks */,
 				1A0EAB501948A2E9001CCFC2 /* Foundation.framework in Frameworks */,
@@ -103,6 +112,7 @@
 		1A0EAB4E1948A2E9001CCFC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A0EAB871948A2FD001CCFC2 /* CoreMotion.framework */,
 				1A0EAB4F1948A2E9001CCFC2 /* Foundation.framework */,
 				1A0EAB511948A2E9001CCFC2 /* CoreGraphics.framework */,
 				1A0EAB531948A2E9001CCFC2 /* UIKit.framework */,
@@ -118,8 +128,12 @@
 				1A0EAB5F1948A2E9001CCFC2 /* AppDelegate.m */,
 				1A0EAB611948A2E9001CCFC2 /* Main_iPhone.storyboard */,
 				1A0EAB641948A2E9001CCFC2 /* Main_iPad.storyboard */,
+				1A58CECF194DE92100A97A14 /* TableViewController.h */,
+				1A58CED0194DE92100A97A14 /* TableViewController.m */,
 				1A0EAB671948A2E9001CCFC2 /* ViewController.h */,
 				1A0EAB681948A2E9001CCFC2 /* ViewController.m */,
+				1A6C8A501948BAEA00ADEA7D /* UIColor+randomColor.h */,
+				1A6C8A511948BAEA00ADEA7D /* UIColor+randomColor.m */,
 				1A0EAB6A1948A2E9001CCFC2 /* Images.xcassets */,
 				1A0EAB561948A2E9001CCFC2 /* Supporting Files */,
 			);
@@ -253,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6C8A521948BAEA00ADEA7D /* UIColor+randomColor.m in Sources */,
 				1A0EAB691948A2E9001CCFC2 /* ViewController.m in Sources */,
 				1A0EAB601948A2E9001CCFC2 /* AppDelegate.m in Sources */,
+				1A58CED1194DE92100A97A14 /* TableViewController.m in Sources */,
 				1A0EAB5C1948A2E9001CCFC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +486,7 @@
 				1A0EAB831948A2E9001CCFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0EAB841948A2E9001CCFC2 /* Build configuration list for PBXNativeTarget "MotionProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +495,7 @@
 				1A0EAB861948A2E9001CCFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
